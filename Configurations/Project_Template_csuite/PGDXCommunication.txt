@@ -1,0 +1,10 @@
+Version 1.1 ModbusMasterDevice RepoVersion 3.5.1
+
+Settings
+NameLine	NetworkAddress	HostName	UnitAddress	Status	Timeout	PeekTime	UoM	DelayCommandTime	DeviceError	DeviceErrorCode	ErrorsID	PollsID	Priority	Endianess	ReadPoints	WritePoints	Cmd17ArrayVarName	Cmd17ReadMode	ReadBoolPoints	WriteBoolPoints
+pGDX	GeneralMng.IPAddress			True	200	200	0	0					Normal	BigEndian	8	8		NoRead	8	8
+
+Variables
+Status	Type	Index	Variable	Occupation	ReadWriteMode	Priority	Hysteresis	Description
+True	InputRegister	0	BrowserAuth.pGDX_Temp		ReadPoll_NoWrite	Normal	1	
+True	InputRegister	1	BrowserAuth.pGDX_Hum		ReadPoll_NoWrite	Normal	1	

@@ -1,0 +1,3 @@
+Version 1.1 LogConfiguration RepoVersion 3.5.1
+Enabled	Name	Type	UoM	NumberOfRecords	RecordFreq	TotalTime	FileName
+True	Log0	Periodic	0	20160	30	604800	Log0.txt

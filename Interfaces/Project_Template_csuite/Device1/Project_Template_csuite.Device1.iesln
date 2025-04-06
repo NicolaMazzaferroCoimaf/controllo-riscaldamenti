@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# c.mask Solution File, Format Version 11.00
+Project("{2BF41244-5A7C-44D7-8A32-177C16C9852B}") = "Project_Template_csuite.Device1", "Project_Template_csuite.Device1.ieproj", "{0C33F453-C1D7-4A6D-827A-DBF5FE768E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|pCO = Debug|pCO
+		Release|pCO = Release|pCO
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C33F453-C1D7-4A6D-827A-DBF5FE768E83}.Debug|pCO.ActiveCfg = Debug|pCO
+		{0C33F453-C1D7-4A6D-827A-DBF5FE768E83}.Debug|pCO.Build.0 = Debug|pCO
+		{0C33F453-C1D7-4A6D-827A-DBF5FE768E83}.Release|pCO.ActiveCfg = Release|pCO
+		{0C33F453-C1D7-4A6D-827A-DBF5FE768E83}.Release|pCO.Build.0 = Release|pCO
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

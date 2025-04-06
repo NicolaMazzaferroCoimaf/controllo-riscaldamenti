@@ -1,0 +1,28 @@
+Version 1.1 PeriodicLog RepoVersion 3.5.1
+Sampling
+Years	Months	Days	Hours	Minutes	Seconds
+0	0	0	0	0	30
+TotalTime
+Years	Months	Days	Hours	Minutes	Seconds
+0	0	7	0	0	0
+EventVariables
+StopEvent	RestartEvent
+		
+
+Variables
+Enabled	Name	Description	Type
+False	GeneralMng.BoardTemp_Msk	Board temperature real	Real
+False	GeneralMng.BuiltInDSP[1]	Built in dysplay present	UDInt
+False	GeneralMng.BuiltInDSP[2]	Built in dysplay present	UDInt
+False	GeneralMng.BuiltInDSP[3]	Built in dysplay present	UDInt
+False	GeneralMng.BuiltInDSP[4]	Built in dysplay present	UDInt
+False	GeneralMng.BuiltInDSP[5]	Built in dysplay present	UDInt
+True	GeneralMng.Minute	Actual minute	UInt
+True	GeneralMng.Month	Actual month	UInt
+True	GeneralMng.Second	Actual second	UInt
+True	GeneralMng.Year	Actual year	UInt
+True	SetP	Setpoint	Real
+True	StartupJmp	Startup jump enable	Bool
+ParametricSampling
+SampleTimeVariable	RecordNum
+30	20160

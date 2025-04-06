@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Info ManifestVersion="1.1.0">
+    <Name>Controllo_Riscaldamenti</Name>
+    <Description>Project Template is a standard project that includes all typical application functions (i.e: menu, change language, clock). It is an excellent base to be used to develop a new software application and excellent folder where configurations typically used in all applications can be copied.</Description>
+    <Version>1.0.0</Version>
+    <CreationDate>2014-10-02T08:32:01.4465398Z</CreationDate>
+    <Owner>Coimaf</Owner>
+    <StorageToolManaged>true</StorageToolManaged>
+    <CSuiteVersion>5.1.9</CSuiteVersion>
+    <TeamWorkingManaged>false</TeamWorkingManaged>
+  </Info>
+</Solution>

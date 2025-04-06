@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="Root" separator=".">
+  <type name="Project_Template_csuite">
+    <item name="Digitals">
+      <item name="AlarmMng.AlrmResByBms" type="boolean" />
+      <item name="AlarmMng.UnitAlrm" type="boolean" />
+      <item name="BrowserAuth.LoggedIn" type="boolean" />
+      <item name="BrowserAuth.PwdFlag" type="boolean" />
+      <item name="BrowserAuth.RemoteLogOut" type="boolean" />
+      <item name="BrowserAuth.StatusAck" type="boolean" />
+      <item name="BrowserAuth.WrongRemotePwd" type="boolean" />
+      <item name="En_WipeMem" type="boolean" />
+      <item name="GeneralMng.DefDone" type="boolean" />
+      <item name="GeneralMng.En_Date" type="boolean" />
+      <item name="GeneralMng.En_DaylightSavingTime" type="boolean" />
+      <item name="GeneralMng.ReadTimezone" type="boolean" />
+      <item name="GeneralMng.RESERVED3" type="boolean" />
+      <item name="GeneralMng.SetTimezone" type="boolean" />
+      <item name="GeneralMng.VersionChk_2_1.IsBeta" type="boolean" />
+      <item name="GeneralMng.VersionChk_2_1.IsDemo" type="boolean" />
+      <item name="IpIsChanged" type="boolean" />
+      <item name="OnOffUnitMng.BmsOnOff" type="boolean" />
+      <item name="OnOffUnitMng.EnBmsOnOff" type="boolean" />
+      <item name="OnOffUnitMng.EnDInOnOff" type="boolean" />
+      <item name="OnOffUnitMng.EnManOnOff" type="boolean" />
+      <item name="OnOffUnitMng.KeybOnOff" type="boolean" />
+      <item name="UnitOff" type="boolean" />
+      <item name="UnitOn" type="boolean" />
+      <item name="UpdNetCfg" type="boolean" />
+      <item name="AlarmLogReset" type="boolean" />
+    </item>
+    <item name="Analogs">
+      <item name="GeneralMng.BoardTemp_Msk" type="number" />
+      <item name="SetP" type="number" />
+    </item>
+    <item name="Integers">
+      <item name="__SYSVA_MANUAL_BUZZER_OFF" type="number" />
+      <item name="__SYSVA_MANUAL_BUZZER_ON" type="number" />
+      <item name="BrowserAuth.AuthLevel" type="number" />
+      <item name="BrowserAuth.pGDX_Temp" type="number" />
+      <item name="BrowserAuth.RemotePwd" type="number" />
+      <item name="GeneralMng.Address_BMS2" type="number" />
+      <item name="GeneralMng.Baudrate" type="number" />
+      <item name="GeneralMng.BITS" type="number" />
+      <item name="GeneralMng.BoardTemp[1]" type="number" />
+      <item name="GeneralMng.BoardTemp[2]" type="number" />
+      <item name="GeneralMng.BoardTemp[3]" type="number" />
+      <item name="GeneralMng.BoardTemp[4]" type="number" />
+      <item name="GeneralMng.BoardTemp[5]" type="number" />
+      <item name="GeneralMng.BoardTyp[1]" type="number" />
+      <item name="GeneralMng.BoardTyp[2]" type="number" />
+      <item name="GeneralMng.BoardTyp[3]" type="number" />
+      <item name="GeneralMng.BootVersion[1]" type="number" />
+      <item name="GeneralMng.BootVersion[2]" type="number" />
+      <item name="GeneralMng.BootVersion[3]" type="number" />
+      <item name="GeneralMng.BuiltInDSP[1]" type="number" />
+      <item name="GeneralMng.BuiltInDSP[2]" type="number" />
+      <item name="GeneralMng.BuiltInDSP[3]" type="number" />
+      <item name="GeneralMng.BuiltInDSP[4]" type="number" />
+      <item name="GeneralMng.BuiltInDSP[5]" type="number" />
+      <item name="GeneralMng.Core" type="number" />
+      <item name="GeneralMng.CurrVer.X" type="number" />
+      <item name="GeneralMng.CurrVer.Y" type="number" />
+      <item name="GeneralMng.CurrVer.Z" type="number" />
+      <item name="GeneralMng.DateFormat" type="number" />
+      <item name="GeneralMng.Day" type="number" />
+      <item name="GeneralMng.DayIn" type="number" />
+      <item name="GeneralMng.DayOfWeek" type="number" />
+      <item name="GeneralMng.Hour" type="number" />
+      <item name="GeneralMng.HourIn" type="number" />
+      <item name="GeneralMng.ID_Lang" type="number" />
+      <item name="GeneralMng.IPAddress_1" type="number" />
+      <item name="GeneralMng.IPAddress_2" type="number" />
+      <item name="GeneralMng.IPAddress_3" type="number" />
+      <item name="GeneralMng.IPAddress_4" type="number" />
+      <item name="GeneralMng.LastOnDay" type="number" />
+      <item name="GeneralMng.LastOnHour" type="number" />
+      <item name="GeneralMng.LastOnMinute" type="number" />
+      <item name="GeneralMng.LastOnMonth" type="number" />
+      <item name="GeneralMng.LastOnSecond" type="number" />
+      <item name="GeneralMng.LastOnYear" type="number" />
+      <item name="GeneralMng.Minute" type="number" />
+      <item name="GeneralMng.MinuteIn" type="number" />
+      <item name="GeneralMng.Month" type="number" />
+      <item name="GeneralMng.MonthIn" type="number" />
+      <item name="GeneralMng.OffDays" type="number" />
+      <item name="GeneralMng.OffMinutes" type="number" />
+      <item name="GeneralMng.OsVersion[1]" type="number" />
+      <item name="GeneralMng.OsVersion[2]" type="number" />
+      <item name="GeneralMng.OsVersion[3]" type="number" />
+      <item name="GeneralMng.PARITY" type="number" />
+      <item name="GeneralMng.ProtTyp_BMS2" type="number" />
+      <item name="GeneralMng.RESERVED2" type="number" />
+      <item name="GeneralMng.Second" type="number" />
+      <item name="GeneralMng.SecondIn" type="number" />
+      <item name="GeneralMng.SerialNumber[1]" type="number" />
+      <item name="GeneralMng.SerialNumber[2]" type="number" />
+      <item name="GeneralMng.SPEED" type="number" />
+      <item name="GeneralMng.STOP" type="number" />
+      <item name="GeneralMng.VersionChk_2_1.D" type="number" />
+      <item name="GeneralMng.VersionChk_2_1.X" type="number" />
+      <item name="GeneralMng.VersionChk_2_1.Y" type="number" />
+      <item name="GeneralMng.VersionChk_2_1.Z" type="number" />
+      <item name="GeneralMng.Year" type="number" />
+      <item name="GeneralMng.YearIn" type="number" />
+      <item name="GeneralMng.Zone_1" type="number" />
+      <item name="GeneralMng.Zone_Read" type="number" />
+      <item name="GeneralMng.Zone_Write" type="number" />
+      <item name="HoursCounterMng.UnitLifeT" type="number" />
+      <item name="language" type="number" />
+      <item name="MemWritingsNo" type="number" />
+      <item name="N_Alarm" type="number" />
+      <item name="NetCfg[1]" type="number" />
+      <item name="NetCfg[2]" type="number" />
+      <item name="NetCfg[3]" type="number" />
+      <item name="NetCfg[4]" type="number" />
+      <item name="NetCfg[5]" type="number" />
+      <item name="NVRAM_Mng.CurrDate" type="number" />
+      <item name="PwdService" type="number" />
+      <item name="PwdUser" type="number" />
+      <item name="PwrOffDate_BLKO_1" type="number" />
+      <item name="RESERVED1" type="number" />
+      <item name="STD_UOM_ZONE_UI" type="number" />
+      <item name="STD_UOM_ZONE_WEB" type="number" />
+      <item name="UnitStatus" type="number" />
+      <item name="BrowserAuth.pGDX_Hum" type="number" />
+    </item>
+    <item name="Alarms">
+      <item name="Al_Err_retain_write.Active" type="boolean" />
+      <item name="Al_retain.Active" type="boolean" />
+    </item>
+  </type>
+  <item name="$dev$" type="#Project_Template_csuite" />
+</item>

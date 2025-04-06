@@ -1,0 +1,1693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormatFields>
+  <FormatField Name="CL_DINT" Format="io+6">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="AlrmNo" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="266" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="267" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="AlrmDescr" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="262" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="263" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="EnDateDDMMYY" Format="io2z">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="EnDateChg" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="EnDDMMYY" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="CL_UINT" Format="io5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="Var1_Real" Format="o+3.2">
+    <KeyBindings />
+    <EnableOn>
+      <Var Name="EnStoredVar1_REAL" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="Var2_Real" Format="o+3.2">
+    <KeyBindings />
+    <EnableOn>
+      <Var Name="EnStoredVar2_REAL" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="NameVar1" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1063" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1064" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1065" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1066" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1067" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1068" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1069" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+    <EnableOn>
+      <Var Name="EnStoredVar1_REAL" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="NameVar2" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1070" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1071" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1072" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1073" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1074" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1075" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1076" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+    <EnableOn>
+      <Var Name="EnStoredVar2_REAL" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="EnDateMMDDYY" Format="io2z">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="EnDateChg" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="EnMMDDYY" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="EnDateYYMMDD" Format="io2z">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="EnDateChg" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="EnYYMMDD" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="AlrmLogEvent" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="264" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="265" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="CL_INT" Format="io+5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="KeybOnOff" Format="ob">
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="OFF.bmp" Type="Image" Font="SimSun" />
+      <Index Value="1" Content="ON.bmp" Type="Image" Font="SimSun" />
+    </ResourceUsedOnBool>
+    <KeyBindings />
+  </FormatField>
+  <FormatField Name="CL_Move" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Move_UP" />
+      <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_REAL_1" Format="io+3.1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_REAL_1" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_1" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_UDINT" Format="io6">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_STRING" Format="o1" Cloneable="false"></FormatField>
+  <FormatField Name="pCO_Type" Format="o2">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1080" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1081" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1082" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1083" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1084" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1085" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1086" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1087" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="8" Content="1088" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="9" Content="1089" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="10" Content="1090" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="11" Content="1091" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="12" Content="1092" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="13" Content="1093" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="14" Content="1094" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="BoardType" Format="o2">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="286" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="287" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="288" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="289" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="290" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="291" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="292" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="293" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="8" Content="294" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="9" Content="295" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="10" Content="296" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="11" Content="297" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="12" Content="298" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="13" Content="299" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="14" Content="300" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="15" Content="301" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="16" Content="302" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="17" Content="303" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="18" Content="304" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="19" Content="305" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="20" Content="306" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="21" Content="307" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="22" Content="308" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="BoardTempCPCO" Format="io+5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="ShowTemp" />
+    </EnableOn>
+    <FieldText Column="0" Content="285" />
+  </FormatField>
+  <FormatField Name="Board_Temperature_C_UoM" Format="io+5">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="278" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="279" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="280" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="281" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="282" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="283" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="284" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+    <EnableOn>
+      <Var Name="ShowTemp" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="HexConv" Format="io3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="698" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="699" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="700" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="701" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="702" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="703" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="704" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="705" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="706" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="707" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="708" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="709" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="710" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="711" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="712" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="713" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="16" Content="714" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="17" Content="715" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="18" Content="716" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="19" Content="717" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="20" Content="718" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="21" Content="719" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="22" Content="720" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="23" Content="721" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="24" Content="722" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="25" Content="723" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="26" Content="724" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="27" Content="725" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="28" Content="726" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="29" Content="727" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="30" Content="728" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="31" Content="729" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="32" Content="730" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="33" Content="731" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="34" Content="732" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="35" Content="733" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="36" Content="734" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="37" Content="735" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="38" Content="736" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="39" Content="737" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="40" Content="738" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="41" Content="739" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="42" Content="740" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="43" Content="741" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="44" Content="742" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="45" Content="743" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="46" Content="744" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="47" Content="745" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="48" Content="746" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="49" Content="747" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="50" Content="748" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="51" Content="749" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="52" Content="750" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="53" Content="751" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="54" Content="752" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="55" Content="753" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="56" Content="754" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="57" Content="755" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="58" Content="756" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="59" Content="757" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="60" Content="758" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="61" Content="759" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="62" Content="760" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="63" Content="761" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="64" Content="762" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="65" Content="763" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="66" Content="764" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="67" Content="765" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="68" Content="766" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="69" Content="767" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="70" Content="768" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="71" Content="769" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="72" Content="770" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="73" Content="771" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="74" Content="772" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="75" Content="773" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="76" Content="774" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="77" Content="775" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="78" Content="776" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="79" Content="777" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="80" Content="778" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="81" Content="779" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="82" Content="780" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="83" Content="781" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="84" Content="782" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="85" Content="783" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="86" Content="784" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="87" Content="785" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="88" Content="786" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="89" Content="787" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="90" Content="788" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="91" Content="789" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="92" Content="790" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="93" Content="791" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="94" Content="792" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="95" Content="793" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="96" Content="794" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="97" Content="795" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="98" Content="796" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="99" Content="797" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="100" Content="798" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="101" Content="799" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="102" Content="800" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="103" Content="801" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="104" Content="802" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="105" Content="803" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="106" Content="804" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="107" Content="805" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="108" Content="806" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="109" Content="807" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="110" Content="808" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="111" Content="809" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="112" Content="810" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="113" Content="811" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="114" Content="812" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="115" Content="813" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="116" Content="814" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="117" Content="815" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="118" Content="816" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="119" Content="817" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="120" Content="818" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="121" Content="819" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="122" Content="820" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="123" Content="821" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="124" Content="822" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="125" Content="823" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="126" Content="824" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="127" Content="825" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="128" Content="826" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="129" Content="827" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="130" Content="828" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="131" Content="829" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="132" Content="830" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="133" Content="831" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="134" Content="832" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="135" Content="833" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="136" Content="834" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="137" Content="835" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="138" Content="836" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="139" Content="837" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="140" Content="838" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="141" Content="839" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="142" Content="840" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="143" Content="841" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="144" Content="842" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="145" Content="843" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="146" Content="844" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="147" Content="845" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="148" Content="846" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="149" Content="847" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="150" Content="848" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="151" Content="849" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="152" Content="850" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="153" Content="851" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="154" Content="852" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="155" Content="853" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="156" Content="854" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="157" Content="855" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="158" Content="856" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="159" Content="857" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="160" Content="858" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="161" Content="859" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="162" Content="860" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="163" Content="861" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="164" Content="862" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="165" Content="863" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="166" Content="864" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="167" Content="865" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="168" Content="866" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="169" Content="867" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="170" Content="868" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="171" Content="869" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="172" Content="870" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="173" Content="871" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="174" Content="872" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="175" Content="873" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="176" Content="874" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="177" Content="875" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="178" Content="876" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="179" Content="877" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="180" Content="878" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="181" Content="879" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="182" Content="880" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="183" Content="881" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="184" Content="882" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="185" Content="883" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="186" Content="884" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="187" Content="885" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="188" Content="886" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="189" Content="887" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="190" Content="888" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="191" Content="889" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="192" Content="890" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="193" Content="891" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="194" Content="892" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="195" Content="893" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="196" Content="894" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="197" Content="895" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="198" Content="896" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="199" Content="897" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="200" Content="898" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="201" Content="899" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="202" Content="900" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="203" Content="901" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="204" Content="902" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="205" Content="903" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="206" Content="904" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="207" Content="905" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="208" Content="906" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="209" Content="907" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="210" Content="908" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="211" Content="909" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="212" Content="910" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="213" Content="911" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="214" Content="912" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="215" Content="913" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="216" Content="914" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="217" Content="915" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="218" Content="916" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="219" Content="917" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="220" Content="918" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="221" Content="919" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="222" Content="920" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="223" Content="921" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="224" Content="922" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="225" Content="923" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="226" Content="924" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="227" Content="925" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="228" Content="926" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="229" Content="927" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="230" Content="928" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="231" Content="929" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="232" Content="930" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="233" Content="931" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="234" Content="932" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="235" Content="933" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="236" Content="934" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="237" Content="935" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="238" Content="936" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="239" Content="937" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="240" Content="938" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="241" Content="939" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="242" Content="940" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="243" Content="941" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="244" Content="942" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="245" Content="943" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="246" Content="944" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="247" Content="945" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="248" Content="946" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="249" Content="947" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="250" Content="948" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="251" Content="949" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="252" Content="950" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="253" Content="951" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="254" Content="952" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="255" Content="953" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="CL_REAL_2" Format="io+3.2">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_REAL_2" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_REAL_2" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="byte2hex" Format="o3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="311" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="312" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="313" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="314" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="315" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="316" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="317" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="318" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="319" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="320" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="321" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="322" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="323" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="324" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="325" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="326" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="16" Content="327" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="17" Content="328" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="18" Content="329" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="19" Content="330" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="20" Content="331" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="21" Content="332" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="22" Content="333" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="23" Content="334" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="24" Content="335" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="25" Content="336" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="26" Content="337" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="27" Content="338" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="28" Content="339" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="29" Content="340" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="30" Content="341" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="31" Content="342" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="32" Content="343" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="33" Content="344" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="34" Content="345" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="35" Content="346" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="36" Content="347" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="37" Content="348" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="38" Content="349" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="39" Content="350" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="40" Content="351" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="41" Content="352" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="42" Content="353" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="43" Content="354" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="44" Content="355" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="45" Content="356" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="46" Content="357" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="47" Content="358" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="48" Content="359" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="49" Content="360" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="50" Content="361" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="51" Content="362" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="52" Content="363" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="53" Content="364" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="54" Content="365" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="55" Content="366" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="56" Content="367" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="57" Content="368" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="58" Content="369" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="59" Content="370" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="60" Content="371" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="61" Content="372" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="62" Content="373" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="63" Content="374" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="64" Content="375" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="65" Content="376" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="66" Content="377" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="67" Content="378" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="68" Content="379" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="69" Content="380" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="70" Content="381" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="71" Content="382" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="72" Content="383" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="73" Content="384" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="74" Content="385" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="75" Content="386" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="76" Content="387" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="77" Content="388" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="78" Content="389" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="79" Content="390" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="80" Content="391" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="81" Content="392" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="82" Content="393" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="83" Content="394" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="84" Content="395" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="85" Content="396" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="86" Content="397" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="87" Content="398" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="88" Content="399" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="89" Content="400" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="90" Content="401" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="91" Content="402" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="92" Content="403" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="93" Content="404" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="94" Content="405" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="95" Content="406" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="96" Content="407" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="97" Content="408" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="98" Content="409" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="99" Content="410" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="100" Content="411" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="101" Content="412" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="102" Content="413" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="103" Content="414" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="104" Content="415" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="105" Content="416" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="106" Content="417" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="107" Content="418" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="108" Content="419" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="109" Content="420" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="110" Content="421" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="111" Content="422" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="112" Content="423" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="113" Content="424" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="114" Content="425" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="115" Content="426" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="116" Content="427" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="117" Content="428" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="118" Content="429" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="119" Content="430" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="120" Content="431" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="121" Content="432" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="122" Content="433" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="123" Content="434" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="124" Content="435" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="125" Content="436" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="126" Content="437" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="127" Content="438" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="128" Content="439" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="129" Content="440" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="130" Content="441" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="131" Content="442" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="132" Content="443" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="133" Content="444" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="134" Content="445" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="135" Content="446" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="136" Content="447" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="137" Content="448" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="138" Content="449" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="139" Content="450" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="140" Content="451" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="141" Content="452" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="142" Content="453" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="143" Content="454" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="144" Content="455" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="145" Content="456" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="146" Content="457" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="147" Content="458" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="148" Content="459" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="149" Content="460" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="150" Content="461" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="151" Content="462" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="152" Content="463" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="153" Content="464" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="154" Content="465" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="155" Content="466" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="156" Content="467" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="157" Content="468" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="158" Content="469" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="159" Content="470" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="160" Content="471" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="161" Content="472" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="162" Content="473" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="163" Content="474" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="164" Content="475" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="165" Content="476" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="166" Content="477" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="167" Content="478" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="168" Content="479" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="169" Content="480" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="170" Content="481" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="171" Content="482" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="172" Content="483" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="173" Content="484" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="174" Content="485" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="175" Content="486" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="176" Content="487" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="177" Content="488" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="178" Content="489" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="179" Content="490" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="180" Content="491" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="181" Content="492" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="182" Content="493" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="183" Content="494" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="184" Content="495" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="185" Content="496" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="186" Content="497" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="187" Content="498" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="188" Content="499" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="189" Content="500" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="190" Content="501" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="191" Content="502" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="192" Content="503" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="193" Content="504" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="194" Content="505" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="195" Content="506" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="196" Content="507" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="197" Content="508" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="198" Content="509" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="199" Content="510" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="200" Content="511" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="201" Content="512" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="202" Content="513" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="203" Content="514" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="204" Content="515" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="205" Content="516" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="206" Content="517" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="207" Content="518" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="208" Content="519" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="209" Content="520" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="210" Content="521" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="211" Content="522" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="212" Content="523" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="213" Content="524" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="214" Content="525" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="215" Content="526" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="216" Content="527" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="217" Content="528" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="218" Content="529" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="219" Content="530" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="220" Content="531" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="221" Content="532" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="222" Content="533" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="223" Content="534" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="224" Content="535" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="225" Content="536" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="226" Content="537" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="227" Content="538" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="228" Content="539" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="229" Content="540" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="230" Content="541" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="231" Content="542" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="232" Content="543" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="233" Content="544" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="234" Content="545" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="235" Content="546" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="236" Content="547" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="237" Content="548" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="238" Content="549" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="239" Content="550" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="240" Content="551" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="241" Content="552" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="242" Content="553" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="243" Content="554" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="244" Content="555" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="245" Content="556" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="246" Content="557" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="247" Content="558" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="248" Content="559" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="249" Content="560" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="250" Content="561" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="251" Content="562" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="252" Content="563" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="253" Content="564" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="254" Content="565" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="255" Content="566" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IdxImgQM" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="954" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="OnOff_16x36.bmp" Type="Image" Font="SimSun" />
+      <Index Value="2" Content="Set_16x36.bmp" Type="Image" Font="SimSun" />
+      <Index Value="3" Content="Info_16x36.bmp" Type="Image" Font="SimSun" />
+      <Index Value="4" Content="OnOff_16x36_C.bmp" Type="Image" Font="SimSun" />
+      <Index Value="5" Content="Set_16x36_C.bmp" Type="Image" Font="SimSun" />
+      <Index Value="6" Content="Info_16x36_C.bmp" Type="Image" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="UnitStatus" Format="o1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1159" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="1160" Type="Text" Font="SimSun" />
+      <Index Value="2" Content="1161" Type="Text" Font="SimSun" />
+      <Index Value="3" Content="1162" Type="Text" Font="SimSun" />
+      <Index Value="4" Content="1163" Type="Text" Font="SimSun" />
+      <Index Value="5" Content="1164" Type="Text" Font="SimSun" />
+      <Index Value="6" Content="1165" Type="Text" Font="SimSun" />
+      <Index Value="7" Content="1166" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="DayOfWeekShort" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="580" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="581" Type="Text" Font="SimSun" />
+      <Index Value="2" Content="582" Type="Text" Font="SimSun" />
+      <Index Value="3" Content="583" Type="Text" Font="SimSun" />
+      <Index Value="4" Content="584" Type="Text" Font="SimSun" />
+      <Index Value="5" Content="585" Type="Text" Font="SimSun" />
+      <Index Value="6" Content="586" Type="Text" Font="SimSun" />
+      <Index Value="7" Content="587" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="RiscaldamentiOnOff" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="1108" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1109" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="DriveType" Format="io1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="589" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="590" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="ImpExpSel" Format="iob">
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="955" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="956" Type="Text" Font="SimSun" />
+    </ResourceUsedOnBool>
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="EnParamsImpExp" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="ParamImpExp" />
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="596" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="597" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="DummyService" Format="ib">
+    <FieldText Content="593" Column="0" />
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="DummyService" />
+      <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      <KeyBinding Key="UP" BindOn="Move_UP" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="EnAlrmExp" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="AlrmExp" />
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="594" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="595" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="CL_USINT" Format="io3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_BOOL_SWAP" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="ErrImpExp" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="598" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="599" Type="Text" Font="SimSun" />
+      <Index Value="2" Content="600" Type="Text" Font="SimSun" />
+      <Index Value="3" Content="601" Type="Text" Font="SimSun" />
+      <Index Value="4" Content="602" Type="Text" Font="SimSun" />
+      <Index Value="5" Content="603" Type="Text" Font="SimSun" />
+      <Index Value="6" Content="604" Type="Text" Font="SimSun" />
+      <Index Value="7" Content="605" Type="Text" Font="SimSun" />
+      <Index Value="8" Content="606" Type="Text" Font="SimSun" />
+      <Index Value="9" Content="607" Type="Text" Font="SimSun" />
+      <Index Value="10" Content="608" Type="Text" Font="SimSun" />
+      <Index Value="11" Content="609" Type="Text" Font="SimSun" />
+      <Index Value="12" Content="610" Type="Text" Font="SimSun" />
+      <Index Value="13" Content="611" Type="Text" Font="SimSun" />
+      <Index Value="14" Content="612" Type="Text" Font="SimSun" />
+      <Index Value="15" Content="613" Type="Text" Font="SimSun" />
+      <Index Value="16" Content="614" Type="Text" Font="SimSun" />
+      <Index Value="17" Content="615" Type="Text" Font="SimSun" />
+      <Index Value="18" Content="616" Type="Text" Font="SimSun" />
+      <Index Value="19" Content="617" Type="Text" Font="SimSun" />
+      <Index Value="20" Content="618" Type="Text" Font="SimSun" />
+      <Index Value="21" Content="619" Type="Text" Font="SimSun" />
+      <Index Value="22" Content="620" Type="Text" Font="SimSun" />
+      <Index Value="23" Content="621" Type="Text" Font="SimSun" />
+      <Index Value="24" Content="622" Type="Text" Font="SimSun" />
+      <Index Value="25" Content="623" Type="Text" Font="SimSun" />
+      <Index Value="26" Content="624" Type="Text" Font="SimSun" />
+      <Index Value="27" Content="625" Type="Text" Font="SimSun" />
+      <Index Value="28" Content="626" Type="Text" Font="SimSun" />
+      <Index Value="29" Content="627" Type="Text" Font="SimSun" />
+      <Index Value="30" Content="628" Type="Text" Font="SimSun" />
+      <Index Value="31" Content="629" Type="Text" Font="SimSun" />
+      <Index Value="32" Content="630" Type="Text" Font="SimSun" />
+      <Index Value="33" Content="631" Type="Text" Font="SimSun" />
+      <Index Value="34" Content="632" Type="Text" Font="SimSun" />
+      <Index Value="35" Content="633" Type="Text" Font="SimSun" />
+      <Index Value="36" Content="634" Type="Text" Font="SimSun" />
+      <Index Value="37" Content="635" Type="Text" Font="SimSun" />
+      <Index Value="38" Content="636" Type="Text" Font="SimSun" />
+      <Index Value="39" Content="637" Type="Text" Font="SimSun" />
+      <Index Value="40" Content="638" Type="Text" Font="SimSun" />
+      <Index Value="41" Content="639" Type="Text" Font="SimSun" />
+      <Index Value="42" Content="640" Type="Text" Font="SimSun" />
+      <Index Value="43" Content="641" Type="Text" Font="SimSun" />
+      <Index Value="44" Content="642" Type="Text" Font="SimSun" />
+      <Index Value="45" Content="643" Type="Text" Font="SimSun" />
+      <Index Value="46" Content="644" Type="Text" Font="SimSun" />
+      <Index Value="47" Content="645" Type="Text" Font="SimSun" />
+      <Index Value="48" Content="646" Type="Text" Font="SimSun" />
+      <Index Value="49" Content="647" Type="Text" Font="SimSun" />
+      <Index Value="50" Content="648" Type="Text" Font="SimSun" />
+      <Index Value="51" Content="649" Type="Text" Font="SimSun" />
+      <Index Value="52" Content="650" Type="Text" Font="SimSun" />
+      <Index Value="53" Content="651" Type="Text" Font="SimSun" />
+      <Index Value="54" Content="652" Type="Text" Font="SimSun" />
+      <Index Value="55" Content="653" Type="Text" Font="SimSun" />
+      <Index Value="56" Content="654" Type="Text" Font="SimSun" />
+      <Index Value="57" Content="655" Type="Text" Font="SimSun" />
+      <Index Value="58" Content="656" Type="Text" Font="SimSun" />
+      <Index Value="59" Content="657" Type="Text" Font="SimSun" />
+      <Index Value="60" Content="658" Type="Text" Font="SimSun" />
+      <Index Value="61" Content="659" Type="Text" Font="SimSun" />
+      <Index Value="62" Content="660" Type="Text" Font="SimSun" />
+      <Index Value="63" Content="661" Type="Text" Font="SimSun" />
+      <Index Value="64" Content="662" Type="Text" Font="SimSun" />
+      <Index Value="65" Content="663" Type="Text" Font="SimSun" />
+      <Index Value="66" Content="664" Type="Text" Font="SimSun" />
+      <Index Value="67" Content="665" Type="Text" Font="SimSun" />
+      <Index Value="68" Content="666" Type="Text" Font="SimSun" />
+      <Index Value="69" Content="667" Type="Text" Font="SimSun" />
+      <Index Value="70" Content="668" Type="Text" Font="SimSun" />
+      <Index Value="71" Content="669" Type="Text" Font="SimSun" />
+      <Index Value="72" Content="670" Type="Text" Font="SimSun" />
+      <Index Value="73" Content="671" Type="Text" Font="SimSun" />
+      <Index Value="74" Content="672" Type="Text" Font="SimSun" />
+      <Index Value="75" Content="673" Type="Text" Font="SimSun" />
+      <Index Value="76" Content="674" Type="Text" Font="SimSun" />
+      <Index Value="77" Content="675" Type="Text" Font="SimSun" />
+      <Index Value="78" Content="676" Type="Text" Font="SimSun" />
+      <Index Value="79" Content="677" Type="Text" Font="SimSun" />
+      <Index Value="80" Content="678" Type="Text" Font="SimSun" />
+      <Index Value="81" Content="679" Type="Text" Font="SimSun" />
+      <Index Value="82" Content="680" Type="Text" Font="SimSun" />
+      <Index Value="83" Content="681" Type="Text" Font="SimSun" />
+      <Index Value="84" Content="682" Type="Text" Font="SimSun" />
+      <Index Value="85" Content="683" Type="Text" Font="SimSun" />
+      <Index Value="86" Content="684" Type="Text" Font="SimSun" />
+      <Index Value="87" Content="685" Type="Text" Font="SimSun" />
+      <Index Value="88" Content="686" Type="Text" Font="SimSun" />
+      <Index Value="89" Content="687" Type="Text" Font="SimSun" />
+      <Index Value="90" Content="688" Type="Text" Font="SimSun" />
+      <Index Value="91" Content="689" Type="Text" Font="SimSun" />
+      <Index Value="92" Content="690" Type="Text" Font="SimSun" />
+      <Index Value="93" Content="691" Type="Text" Font="SimSun" />
+      <Index Value="94" Content="692" Type="Text" Font="SimSun" />
+      <Index Value="95" Content="693" Type="Text" Font="SimSun" />
+      <Index Value="96" Content="694" Type="Text" Font="SimSun" />
+      <Index Value="97" Content="695" Type="Text" Font="SimSun" />
+      <Index Value="98" Content="696" Type="Text" Font="SimSun" />
+      <Index Value="99" Content="697" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="PwdType" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1104" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="1105" Type="Text" Font="SimSun" />
+      <Index Value="2" Content="1106" Type="Text" Font="SimSun" />
+      <Index Value="3" Content="1107" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="MainTxtTOP" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1055" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1056" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1057" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1058" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1059" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1060" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1061" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1062" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="MainTxtMIDDLE" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1047" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1048" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1049" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1050" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1051" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1052" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1053" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1054" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="MainTxtBOTTOM" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1039" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1040" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1041" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1042" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1043" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1044" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1045" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1046" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IdxImgMain" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="I_O_12x16.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="I_O_black_12x16.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="EXV_2.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="EXV_2_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="Compr.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="Compr_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="Fan.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="Fan_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="8" Content="Maint.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="9" Content="Maint_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="10" Content="History.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="11" Content="History_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="12" Content="Manuf.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="13" Content="Manuf_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="14" Content="LogOut.bmp" Type="Image" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="Logout_black.bmp" Type="Image" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="PosBarMenuTOP" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="Black_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="1" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="2" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="PosBarMenuMIDDLE" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="1" Content="Black_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="2" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="PosBarMenuBOTTOM" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="1" Content="White_rows_120x16.bmp" Type="Image" Font="SimSun" />
+      <Index Value="2" Content="Black_rows_120x16.bmp" Type="Image" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="UserAccesMenu" Format="o1">
+    <KeyBindings />
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1167" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1168" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1169" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1170" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="PwdIn" Format="io4z">
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="PwdLogIn" />
+      <KeyBinding Key="DOWN" BindOn="DecrDig" />
+      <KeyBinding Key="UP" BindOn="IncrDig" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="PwdRes" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1102" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="1103" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="SettingsTxtTOP" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1119" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1120" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1121" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1122" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1123" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1124" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="SettingsTxtMIDDLE" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1114" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1115" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1116" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1117" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1118" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="SettingsTxtBOTTOM" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1110" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1111" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1112" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1113" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IdxImgSettings" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="Data_Time.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="Data_Time_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="UoM_12x16.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="UoM_black_12x16.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="Language_2.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="Language_2_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="Serial Port.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="SerialPort_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="8" Content="Pwd Change.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="9" Content="Pwd Change_black.bmp" Type="Image" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="10" Content="Initializiation.bmp" Type="Image" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+      <Index Value="11" Content="Initializiation_black.bmp" Type="Image" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="10" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="EnDateChg" Format="io2z">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="EnDateChg" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="DayOfWeek" Format="o1">
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="572" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="573" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="574" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="3" Content="575" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="4" Content="576" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="5" Content="577" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="6" Content="578" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="7" Content="579" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="DateFormat" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="DFUp" />
+      <KeyBinding Key="DOWN" BindOn="DFDown" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="569" Type="Text" Font="SimSun" />
+      <Index Value="1" Content="570" Type="Text" Font="SimSun" />
+      <Index Value="2" Content="571" Type="Text" Font="SimSun" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="TZ_IdxChg" Format="i3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="TZ_Up" />
+      <KeyBinding Key="DOWN" BindOn="TZ_Dwn" />
+      <KeyBinding Key="ENTER" BindOn="TZ_Enter" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="Parity" Format="io4">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1077" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1078" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1079" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="Baudrate" Format="io+6">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="268" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="269" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="270" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="271" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="272" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="273" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="274" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="275" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="276" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="277" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="ProtTyp_BMS" Format="io3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1095" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1096" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1097" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1098" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="StopBit" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1139" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1140" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1141" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfgMainDummy" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="IPCFG_Dummy_UP" />
+      <KeyBinding Key="DOWN" BindOn="IPCFG_Dummy_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="IPCFG_Dummy_ENTER" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="BoolGenericClass" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="309" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="310" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="PwdChgU" Format="io4z">
+    <EnableOn>
+      <Var Name="EnPwdChgU" />
+    </EnableOn>
+    <FieldText Content="1101" Column="6" />
+  </FormatField>
+  <FormatField Name="PwdChgS" Format="io4z">
+    <EnableOn>
+      <Var Name="EnPwdChgS" />
+    </EnableOn>
+    <FieldText Content="1100" Column="6" />
+  </FormatField>
+  <FormatField Name="PwdChgM" Format="io4z">
+    <EnableOn>
+      <Var Name="EnPwdChgM" />
+    </EnableOn>
+    <FieldText Content="1099" Column="6" />
+  </FormatField>
+  <FormatField Name="DummyManuf" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="DummyManuf" />
+      <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      <KeyBinding Key="UP" BindOn="Move_UP" />
+    </KeyBindings>
+    <FieldText Content="591" Column="0" />
+  </FormatField>
+  <FormatField Name="AlarmLogDelete" Format="iob">
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="260" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="261" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+    <KeyBindings>
+      <KeyBinding Key="ENTER" BindOn="DeleteAlarmLog" />
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="ClrAutoResCounters" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="ClearAutoResetCounter" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="567" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="1" Content="568" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="DummyManufUnitOff" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Move_UP" />
+      <KeyBinding Key="DOWN" BindOn="Move_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="DummyManufOnOff" />
+    </KeyBindings>
+    <FieldText Content="592" Column="0" />
+  </FormatField>
+  <FormatField Name="WipeMem" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="WipeMem" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="1171" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1172" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="STD_UOM_ZONE_UI" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1125" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1126" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1127" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1128" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1129" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1130" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1131" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="STD_UOM_ZONE_WEB" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1132" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1133" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1134" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1135" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1136" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1137" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1138" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfgConfigDummy" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="IPCFG_Dummy_UP" />
+      <KeyBinding Key="DOWN" BindOn="IPCFG_Dummy_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_ESC" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="CL_SINT" Format="io+3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_Status" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="IPCFG_Save_UP" />
+      <KeyBinding Key="DOWN" BindOn="IPCFG_Save_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_ESC" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="976" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="977" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="978" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_IP" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="972" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="973" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_NK" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="974" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="975" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_GW" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="970" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="971" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_DNS" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="968" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="969" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_EnIO" Format="io3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPV4Cfg.EnIOAddr" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="IPCfg_v4_EnO" Format="o3">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_BYTE" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_BYTE" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPV4Cfg.EnOAddr" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="IPCfg_ShowPeriod" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="966" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="967" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_Status" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="IPCFG_Save_UP" />
+      <KeyBinding Key="DOWN" BindOn="IPCFG_Save_DOWN" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_ESC" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1035" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1036" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1037" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_PA" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="1033" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1034" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_LL" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="1031" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1032" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_EnO" Format="o2">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPV6Cfg.EnOAddr" />
+    </EnableOn>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1013" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1014" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1015" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1016" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1017" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1018" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1019" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1020" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="1021" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="1022" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="1023" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="1024" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="1025" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="1026" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="1027" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="1028" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_EnIO" Format="io2">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPV6Cfg.EnIOAddr" />
+    </EnableOn>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="981" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="982" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="983" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="984" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="985" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="986" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="987" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="988" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="989" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="990" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="991" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="992" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="993" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="994" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="995" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="996" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfg_ShowColon" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="964" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="965" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_EnLL" Format="o2">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="997" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="998" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="999" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1000" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1001" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1002" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1003" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1004" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="1005" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="1006" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="1007" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="1008" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="1009" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="1010" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="1011" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="1012" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPV6Cfg.EnAddr" />
+    </EnableOn>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_DNS" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="979" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="980" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_v6_GW" Format="ob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="1029" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1030" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfg_SaveCfg" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="IPCFG_UpdCfg_ENTER" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_ESC" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="961" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="962" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+    <FieldText Column="2" Content="963" />
+  </FormatField>
+  <FormatField Name="IPCfgRebootDummy" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_Reboot_ESC" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="IPCfg_EnReboot" Format="io1">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="IPCFG_Reboot_ENTER" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_Reboot_ESC" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="959" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="960" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfgErrDummy" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_Err_ESC" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="SystemErrorsMsg" Format="o2">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnInt>
+      <Index Value="0" Content="1142" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="1143" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="2" Content="1144" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="1145" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="1146" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="1147" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="1148" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="7" Content="1149" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="8" Content="1150" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="9" Content="1151" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="10" Content="1152" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="11" Content="1153" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="12" Content="1154" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="13" Content="1155" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="14" Content="1156" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="15" Content="1157" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="16" Content="1158" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnInt>
+  </FormatField>
+  <FormatField Name="IPCfgDummySettings" Format="ib">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+      <KeyBinding Key="ESC" BindOn="IPCFG_Settings_ESC" />
+    </KeyBindings>
+  </FormatField>
+  <FormatField Name="IPCfg_EnContinuousReading" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_WORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_WORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="957" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="958" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
+  <FormatField Name="IPCfgShowTimeout" Format="io4">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="Increment_DWORD" />
+      <KeyBinding Key="DOWN" BindOn="Decrement_DWORD" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <EnableOn>
+      <Var Name="IPCfgMng.IPCFG_1.ShowTimeout_msk" />
+    </EnableOn>
+    <FieldText Column="0" Content="1038" />
+  </FormatField>
+</FormatFields>
