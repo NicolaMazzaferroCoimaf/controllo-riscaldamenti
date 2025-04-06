@@ -106,6 +106,9 @@
     <FunctionBlock Name="RegArrayToStr" ElementGuid="3a302adb-4836-44e6-b4b6-6cb86cca7090" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="GetTZFromRule" ElementGuid="aa0ac5d0-c515-4e17-9f69-18155896357b" Language="ST" CustomFbd="0" Is1499="false" />
     <FunctionBlock Name="TZ_Mng" ElementGuid="0adf0593-de38-44a0-982d-c20dd3e23e65" Language="ST" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="ControlloStanza" ElementGuid="d44d8ccd-4096-4a82-a2d7-b4b851b567f8" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="CalibrazioneTemperatura" ElementGuid="503c8466-da37-40d3-a841-120a0e5ccb52" Language="FBD" CustomFbd="0" Is1499="false" />
+    <FunctionBlock Name="AllarmeTemperatura" ElementGuid="c63fcd65-71ea-4e06-bc0c-6f778a276ffb" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="NVRAM_Mng" ElementGuid="ed8efe73-eb1f-4724-af65-438e120b9251" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="GeneralMng" ElementGuid="7a120d2e-a685-464f-92dc-c41fb2a4d679" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="AlarmMng" ElementGuid="3a3fc04a-be01-4fa4-b845-88be46e69fda" Language="FBD" CustomFbd="0" Is1499="false" />
@@ -116,6 +119,7 @@
     <Program Name="IPCfgMng" ElementGuid="1fc13315-1fd4-419c-bf5e-2d166c03b9fe" Language="FBD" CustomFbd="0" Is1499="false" />
     <Program Name="ApplicaControlla_Vars" ElementGuid="cd247b22-39c7-40f6-8b5c-531e8dc0ced5" Language="ST" CustomFbd="0" Is1499="false" />
     <Program Name="Prog1" ElementGuid="5d20de0a-4d1a-4c2d-b991-083be068b645" Language="FBD" CustomFbd="0" Is1499="false" />
+    <Program Name="ControlloAccensione" ElementGuid="1f005850-c74d-41e6-ace4-da9eb8df2814" Language="FBD" CustomFbd="0" Is1499="false" />
   </Pous>
   <NetworkParameterValues>
     <NetworkParameterValue NetworkName="HSD" Name="ValidityTime" Value="0" />

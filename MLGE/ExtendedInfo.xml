@@ -45,6 +45,9 @@
   <AcfElementGuid Guid="1cc12dc9-d45e-49a4-9e3e-6aa7cd307463">
     <File>BarToPsi_REAL.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="1f005850-c74d-41e6-ace4-da9eb8df2814">
+    <File>ControlloAccensione.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="1fc13315-1fd4-419c-bf5e-2d166c03b9fe">
     <File>IPCfgMng.acfmlge</File>
   </AcfElementGuid>
@@ -119,6 +122,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="4f46f7c5-8839-4244-b823-020af10e3db2">
     <File>FahrToCel_INT.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="503c8466-da37-40d3-a841-120a0e5ccb52">
+    <File>CalibrazioneTemperatura.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="54c723e1-1fa3-4bf1-b8f3-231023c92431">
     <File>BarToPsi_INT.AcfMlge</File>
@@ -267,6 +273,9 @@
   <AcfElementGuid Guid="c18e4b27-3380-4a4b-a664-ade32af08c89">
     <File>SecToTime.AcfMlge</File>
   </AcfElementGuid>
+  <AcfElementGuid Guid="c63fcd65-71ea-4e06-bc0c-6f778a276ffb">
+    <File>AllarmeTemperatura.AcfMlge</File>
+  </AcfElementGuid>
   <AcfElementGuid Guid="ca994d0e-bb25-4d77-a7d4-f53728611bf1">
     <File>Min_INT.AcfMlge</File>
   </AcfElementGuid>
@@ -284,6 +293,9 @@
   </AcfElementGuid>
   <AcfElementGuid Guid="d3cf6c6d-649a-4c3b-88a7-13d50caba3f0">
     <File>DelayOnOff_INT.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="d44d8ccd-4096-4a82-a2d7-b4b851b567f8">
+    <File>ControlloStanza.AcfMlge</File>
   </AcfElementGuid>
   <AcfElementGuid Guid="d6a1488f-15ea-449d-bdb8-34ef3d6b672e">
     <File>Sel_INT.AcfMlge</File>
