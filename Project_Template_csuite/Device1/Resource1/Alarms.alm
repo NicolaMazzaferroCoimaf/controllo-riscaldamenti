@@ -2,5 +2,9 @@
 <Alarms UnitConversionZone="STD_UOM_ZONE_UI">
   <Alarm Name="Al_retain" Type="ManualReset" Trigger="Al_retain.Trigger" Active="Al_retain.Active" StorVar1="MemWritingsNo" Description="Error in the number of retain memory writings" />
   <Alarm Name="Al_Err_retain_write" Type="ManualReset" Trigger="Al_Err_retain_write.Trigger" Active="Al_Err_retain_write.Active" Description="Error in retain memory writings" />
-  <Alarm Name="tuoall" Type="AutoReset" Trigger="tuoall.Trigger" Active="tuoall.Active" />
+  <Alarm Name="All_Temp" Type="AutoReset" Trigger="All_Temp.Trigger" Active="All_Temp.Active" Description="Allarme Generico temperatura &gt;200 o &lt; 200" />
+  <Alarm Name="All_cucina" Type="AutoReset" Trigger="All_cucina.Trigger" Active="All_cucina.Active" Description="Allarme Cucina temperatura &gt;200 o &lt; 200" />
+  <Alarm Name="All_letto" Type="AutoReset" Trigger="All_letto.Trigger" Active="All_letto.Active" Description="Allarme Letto temperatura &gt;200 o &lt; 200" />
+  <Alarm Name="All_bagno" Type="AutoReset" Trigger="All_bagno.Trigger" Active="All_bagno.Active" Description="Allarme Bagno temperatura &gt;200 o &lt; 200" />
+  <Alarm Name="All_salotto" Type="AutoReset" Trigger="All_salotto.Trigger" Active="All_salotto.Active" Description="Allarme Salotto temperatura &gt;200 o &lt; 200" />
 </Alarms>

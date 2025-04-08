@@ -4,10 +4,10 @@
   Version="1.1.0">
   <Variables>
     <Variable
-      Name="allarmeOut_stanza"
+      Name="allarme"
       Comment=""
       DataType="BOOL"
-      Kind="Var"
+      Kind="VarOutput"
       IO="false"
       Protocol="false"
       UI="false"
@@ -398,8 +398,9 @@
       UoM="DegreesCelsius"
       Access="ReadWrite"
       Decimals="1"
-      Min="-200"
-      Max="200"
+      Min=""
+      Max=""
+      InitialValue="250.0"
       StringSize="0" />
   </Variables>
 </Manifest>

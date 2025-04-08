@@ -44,6 +44,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="250.0"
         StringSize="0" />
       <Variable
         Name="fattore"
@@ -83,7 +84,7 @@
         Decimals="1"
         Min=""
         Max=""
-        InitialValue="0.0"
+        InitialValue="0.1"
         StringSize="0" />
       <Variable
         Name="setTemp"
@@ -143,24 +144,6 @@
         Max=""
         StringSize="0" />
       <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
-      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -178,6 +161,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="0.0"
         StringSize="0" />
       <Variable
         Name="tempCalibrata"
@@ -327,7 +311,7 @@
           LogPV="false"
           IsRetained="false"
           Alarm="false"
-          UoM="NoUnits"
+          UoM="DegreesCelsius"
           Comment="Temperatura letta dalla sonda"
           Kind="VarInput"
           Access="ReadWrite"
@@ -335,6 +319,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="16.0"
           StringSize="0" />
         <Variable
           Name="fattore"
@@ -354,6 +339,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="1.0"
           StringSize="0" />
         <Variable
           Name="offset"
@@ -373,13 +359,14 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="0.1"
           StringSize="0" />
         <Variable
           Name="tempCalibrata"
           DataType="REAL"
           IO="false"
           Protocol="false"
-          UI="false"
+          UI="true"
           Default="false"
           LogPV="false"
           IsRetained="false"
@@ -435,6 +422,24 @@
           Max=""
           StringSize="0" />
       </Variable>
+      <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Cucina"
@@ -459,6 +464,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="250.0"
         StringSize="0" />
       <Variable
         Name="fattore"
@@ -498,7 +504,7 @@
         Decimals="1"
         Min=""
         Max=""
-        InitialValue="0.0"
+        InitialValue="0.1"
         StringSize="0" />
       <Variable
         Name="setTemp"
@@ -558,24 +564,6 @@
         Max=""
         StringSize="0" />
       <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
-      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -593,6 +581,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="0.0"
         StringSize="0" />
       <Variable
         Name="tempCalibrata"
@@ -742,7 +731,7 @@
           LogPV="false"
           IsRetained="false"
           Alarm="false"
-          UoM="NoUnits"
+          UoM="DegreesCelsius"
           Comment="Temperatura letta dalla sonda"
           Kind="VarInput"
           Access="ReadWrite"
@@ -750,6 +739,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="16.0"
           StringSize="0" />
         <Variable
           Name="fattore"
@@ -769,6 +759,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="1.0"
           StringSize="0" />
         <Variable
           Name="offset"
@@ -788,13 +779,14 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="0.1"
           StringSize="0" />
         <Variable
           Name="tempCalibrata"
           DataType="REAL"
           IO="false"
           Protocol="false"
-          UI="false"
+          UI="true"
           Default="false"
           LogPV="false"
           IsRetained="false"
@@ -850,6 +842,24 @@
           Max=""
           StringSize="0" />
       </Variable>
+      <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Letto"
@@ -874,6 +884,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="250.0"
         StringSize="0" />
       <Variable
         Name="fattore"
@@ -913,7 +924,7 @@
         Decimals="1"
         Min=""
         Max=""
-        InitialValue="0.0"
+        InitialValue="0.1"
         StringSize="0" />
       <Variable
         Name="setTemp"
@@ -973,24 +984,6 @@
         Max=""
         StringSize="0" />
       <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
-      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -1008,6 +1001,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="0.0"
         StringSize="0" />
       <Variable
         Name="tempCalibrata"
@@ -1157,7 +1151,7 @@
           LogPV="false"
           IsRetained="false"
           Alarm="false"
-          UoM="NoUnits"
+          UoM="DegreesCelsius"
           Comment="Temperatura letta dalla sonda"
           Kind="VarInput"
           Access="ReadWrite"
@@ -1165,6 +1159,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="16.0"
           StringSize="0" />
         <Variable
           Name="fattore"
@@ -1184,6 +1179,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="1.0"
           StringSize="0" />
         <Variable
           Name="offset"
@@ -1203,13 +1199,14 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="0.1"
           StringSize="0" />
         <Variable
           Name="tempCalibrata"
           DataType="REAL"
           IO="false"
           Protocol="false"
-          UI="false"
+          UI="true"
           Default="false"
           LogPV="false"
           IsRetained="false"
@@ -1265,6 +1262,24 @@
           Max=""
           StringSize="0" />
       </Variable>
+      <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Salotto"
@@ -1289,6 +1304,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="250.0"
         StringSize="0" />
       <Variable
         Name="fattore"
@@ -1328,7 +1344,7 @@
         Decimals="1"
         Min=""
         Max=""
-        InitialValue="0.0"
+        InitialValue="0.1"
         StringSize="0" />
       <Variable
         Name="setTemp"
@@ -1388,24 +1404,6 @@
         Max=""
         StringSize="0" />
       <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
-      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -1423,6 +1421,7 @@
         Decimals="1"
         Min=""
         Max=""
+        InitialValue="0.0"
         StringSize="0" />
       <Variable
         Name="tempCalibrata"
@@ -1572,7 +1571,7 @@
           LogPV="false"
           IsRetained="false"
           Alarm="false"
-          UoM="NoUnits"
+          UoM="DegreesCelsius"
           Comment="Temperatura letta dalla sonda"
           Kind="VarInput"
           Access="ReadWrite"
@@ -1580,6 +1579,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="16.0"
           StringSize="0" />
         <Variable
           Name="fattore"
@@ -1599,6 +1599,7 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="1.0"
           StringSize="0" />
         <Variable
           Name="offset"
@@ -1618,13 +1619,14 @@
           Decimals="1"
           Min=""
           Max=""
+          InitialValue="0.1"
           StringSize="0" />
         <Variable
           Name="tempCalibrata"
           DataType="REAL"
           IO="false"
           Protocol="false"
-          UI="false"
+          UI="true"
           Default="false"
           LogPV="false"
           IsRetained="false"
@@ -1680,6 +1682,24 @@
           Max=""
           StringSize="0" />
       </Variable>
+      <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
     </Variable>
     <Variable
       Name="reverse_bagno"
