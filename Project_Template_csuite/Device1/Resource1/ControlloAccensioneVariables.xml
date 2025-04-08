@@ -106,6 +106,25 @@
         InitialValue="16.0"
         StringSize="0" />
       <Variable
+        Name="reverse"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Inversione logica"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        InitialValue="TRUE"
+        StringSize="0" />
+      <Variable
         Name="riscaldamento"
         DataType="BOOL"
         IO="false"
@@ -118,6 +137,24 @@
         UoM="NoUnits"
         Comment="TRUE se la stanza richiede calore"
         Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="allarmeOut_stanza"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
         Access="ReadWrite"
         Acronym=""
         Min=""
@@ -278,25 +315,6 @@
           StringSize="0" />
       </Variable>
       <Variable
-        Name="reverse"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment="Inversione logica"
-        Kind="VarInput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        InitialValue="TRUE"
-        StringSize="0" />
-      <Variable
         Name="CalibrazioneTemperatura_1"
         DataType="CalibrazioneTemperatura">
         <Variable
@@ -417,24 +435,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Cucina"
@@ -521,6 +521,25 @@
         InitialValue="16.0"
         StringSize="0" />
       <Variable
+        Name="reverse"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Inversione logica"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        InitialValue="TRUE"
+        StringSize="0" />
+      <Variable
         Name="riscaldamento"
         DataType="BOOL"
         IO="false"
@@ -533,6 +552,24 @@
         UoM="NoUnits"
         Comment="TRUE se la stanza richiede calore"
         Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="allarmeOut_stanza"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
         Access="ReadWrite"
         Acronym=""
         Min=""
@@ -693,25 +730,6 @@
           StringSize="0" />
       </Variable>
       <Variable
-        Name="reverse"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment="Inversione logica"
-        Kind="VarInput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        InitialValue="TRUE"
-        StringSize="0" />
-      <Variable
         Name="CalibrazioneTemperatura_1"
         DataType="CalibrazioneTemperatura">
         <Variable
@@ -832,24 +850,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Letto"
@@ -936,6 +936,25 @@
         InitialValue="16.0"
         StringSize="0" />
       <Variable
+        Name="reverse"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Inversione logica"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        InitialValue="TRUE"
+        StringSize="0" />
+      <Variable
         Name="riscaldamento"
         DataType="BOOL"
         IO="false"
@@ -948,6 +967,24 @@
         UoM="NoUnits"
         Comment="TRUE se la stanza richiede calore"
         Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="allarmeOut_stanza"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
         Access="ReadWrite"
         Acronym=""
         Min=""
@@ -1108,25 +1145,6 @@
           StringSize="0" />
       </Variable>
       <Variable
-        Name="reverse"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment="Inversione logica"
-        Kind="VarInput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        InitialValue="TRUE"
-        StringSize="0" />
-      <Variable
         Name="CalibrazioneTemperatura_1"
         DataType="CalibrazioneTemperatura">
         <Variable
@@ -1247,24 +1265,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Salotto"
@@ -1351,6 +1351,25 @@
         InitialValue="16.0"
         StringSize="0" />
       <Variable
+        Name="reverse"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment="Inversione logica"
+        Kind="VarInput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        InitialValue="TRUE"
+        StringSize="0" />
+      <Variable
         Name="riscaldamento"
         DataType="BOOL"
         IO="false"
@@ -1363,6 +1382,24 @@
         UoM="NoUnits"
         Comment="TRUE se la stanza richiede calore"
         Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
+        Name="allarmeOut_stanza"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="Var"
         Access="ReadWrite"
         Acronym=""
         Min=""
@@ -1523,25 +1560,6 @@
           StringSize="0" />
       </Variable>
       <Variable
-        Name="reverse"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment="Inversione logica"
-        Kind="VarInput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        InitialValue="TRUE"
-        StringSize="0" />
-      <Variable
         Name="CalibrazioneTemperatura_1"
         DataType="CalibrazioneTemperatura">
         <Variable
@@ -1662,24 +1680,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarmeOut_stanza"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="Var"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="reverse_bagno"

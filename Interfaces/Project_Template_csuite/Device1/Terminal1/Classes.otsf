@@ -16,6 +16,7 @@
     <ResourceUsedOnInt>
       <Index Value="0" Content="Too many mem writings" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="1" Content="Retain mem write error" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="AlrmLogEvent" Format="o1">
@@ -30,6 +31,7 @@
     <ResourceUsedOnInt>
       <Index Value="0" Content="AL*01" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="1" Content="AL*02" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
+      <Index Value="2" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="Baudrate" Format="io+6">
@@ -1411,6 +1413,17 @@
       <Var Name="EnStoredVar2_REAL" />
     </EnableOn>
   </FormatField>
+  <FormatField Name="onFreddo" Format="iob">
+    <KeyBindings>
+      <KeyBinding Key="UP" BindOn="BoolSwap" />
+      <KeyBinding Key="DOWN" BindOn="BoolSwap" />
+      <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
+    </KeyBindings>
+    <ResourceUsedOnBool>
+      <Index Value="0" Content="Caldo" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="Freddo" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+    </ResourceUsedOnBool>
+  </FormatField>
   <FormatField Name="Parity" Format="io4">
     <KeyBindings>
       <KeyBinding Key="UP" BindOn="Increment_BYTE" />
@@ -1523,8 +1536,8 @@
       <KeyBinding Key="ENTER" BindOn="SetCurrentValue" />
     </KeyBindings>
     <ResourceUsedOnBool>
-      <Index Value="0" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
-      <Index Value="1" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_STD" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="0" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="1" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnBool>
   </FormatField>
   <FormatField Name="SettingsTxtBOTTOM" Format="o1">

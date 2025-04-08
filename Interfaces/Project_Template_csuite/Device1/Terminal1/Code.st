@@ -705,7 +705,7 @@ END_FUNCTION
 FUNCTION SelMainMenu                //CASE that manages the Main Menu selection
     CASE CurrItemNo OF              //Depending on which item the black bar is pointing, select the menu
        
-        1: GotoLoop(InputOutput);
+        1: GotoLoop(Calibrazione);
            MaskPos := 2;
 
         2: GotoLoop(CONTROLLA);

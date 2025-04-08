@@ -75,6 +75,7 @@
     <Compile Include="Resources\SerialPort_black.bmp" />
     <Compile Include="Resources\Set_16x36.bmp" />
     <Compile Include="Resources\Set_16x36_C.bmp" />
+    <Compile Include="Resources\snow%283%29.bmp" />
     <Compile Include="Resources\UoM_12x16.bmp" />
     <Compile Include="Resources\UoM_black_12x16.bmp" />
     <Compile Include="Resources\UpDown2.bmp" />

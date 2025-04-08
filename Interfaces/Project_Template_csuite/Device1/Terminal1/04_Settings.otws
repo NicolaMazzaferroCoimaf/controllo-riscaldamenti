@@ -622,16 +622,16 @@
     <Mask Name="SetFattore" Type="Normal" X="6" Y="2">
       <Fields>
         <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
-        <Field Type="Variable" Name="Variable" Row="3" Column="9" Content="Prog1.tVal_fattore_cucina" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
-        <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="Cucina" />
-        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="Cucina" />
-        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Cucina" />
-        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Cucina" />
-        <Field Type="Variable" Name="Variable_2" Row="2" Column="9" Content="Prog1.tVal_fattore_salotto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
-        <Field Type="Variable" Name="Variable_3" Row="4" Column="9" Content="Prog1.tVal_fattore_letto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
-        <Field Type="Variable" Name="Variable_4" Row="5" Column="9" Content="Prog1.tVal_fattore_bagno" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="Letto:" />
+        <Field Type="Text" Name="Text_3" Row="2" Column="0" Content="Cucina:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="Bagno" />
+        <Field Type="Text" Name="Text_5" Row="5" Column="0" Content="Salotto:" />
         <Field Type="Text" Name="Text_6" Row="0" Column="1" Content="FATTORE" />
         <Field Type="Image" Name="Image_3" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="11" Content="ControlloAccensione.setFattore_cucina" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="11" Content="ControlloAccensione.setFattore_letto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="11" Content="ControlloAccensione.setFattore_bagno" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="11" Content="ControlloAccensione.setFattore_salotto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
       </Fields>
     </Mask>
   </Loop>

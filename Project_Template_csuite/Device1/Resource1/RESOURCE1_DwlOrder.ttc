@@ -1,7 +1,7 @@
 ****** __RDCC_MODULE_ID ******
 00000000 :  43 41 52 45 4C 5F 50 43  -  4F 00 00 00 00 00 00 00   * Target Name : CAREL_PCO
 00000010 :  00 00 00 0C   * RDCC format version number
-00000014 :  F7 B7 08 44   * Resource check sum
+00000014 :  FF AB D1 4A   * Resource check sum
 00000018 :  5C F3 E9 27   * Module check sum
 0000001C :  00 00 00 00   * Module ID parameter
 00000020 :  00 00 08 78   * Total size
@@ -9,8 +9,8 @@
 00000028 :  00 00 00 44   * Offset -> resource name
 0000002C :  00 00 00 6E   * Offset -> module name
 00000030 :  00 00 00 A0   * Offset -> beginning of the data block
-00000034 :  67 F2 BC 10   * Compilation generation date
-00000038 :  00 00 00 5F   * Compilation version number
+00000034 :  67 F4 F2 D6   * Compilation generation date
+00000038 :  00 00 00 65   * Compilation version number
 0000003C :  00 00 00 00   * User module version number
 00000040 :  00 00 00 84   * Offset -> target auto-validation data
 00000044 :  50 52 4F 4A 45 43 54 5F  -  54 45 4D 50 4C 41 54 45 

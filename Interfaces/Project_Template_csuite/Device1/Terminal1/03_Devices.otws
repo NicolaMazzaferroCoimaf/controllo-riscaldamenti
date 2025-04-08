@@ -235,13 +235,65 @@
       </KeyBindings>
     </Mask>
   </Loop>
-  <Loop Name="InputOutput" X="0" Y="2">
-    <Mask Name="InputOutput" Type="Normal" X="0" Y="3">
+  <Loop Name="Calibrazione" X="0" Y="2">
+    <Mask Name="CalibrCucina" Type="Normal" X="0" Y="3">
       <Fields>
         <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
         <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
-        <Field Type="Text" Name="Text" Row="4" Column="0" Content="InputOutput" />
         <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="InputOutput" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="ControlloAccensione.tempIn_cucina" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="TempSonda:" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="ControlloAccensione.setOffset_cucina" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="ControlloAccensione.ControlloStanza_Cucina.tempCalibrata" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="15" Content="ControlloAccensione.setFattore_cucina" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="CalibrSalotto" Type="Normal" X="0" Y="4">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="InputOutput" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="ControlloAccensione.tempIn_salotto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="TempSonda:" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="ControlloAccensione.setOffset_salotto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="ControlloAccensione.ControlloStanza_Salotto.tempCalibrata" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="15" Content="ControlloAccensione.setFattore_salotto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="CalibrBagno" Type="Normal" X="0" Y="5">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="InputOutput" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="ControlloAccensione.tempIn_bagno" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="TempSonda:" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="ControlloAccensione.setOffset_bagno" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="ControlloAccensione.ControlloStanza_Bagno.tempCalibrata" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="15" Content="ControlloAccensione.setFattore_bagno" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+      </Fields>
+    </Mask>
+    <Mask Name="CalibrLetto" Type="Normal" X="0" Y="6">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_2" Row="0" Column="1" Content="InputOutput" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="15" Content="ControlloAccensione.tempIn_letto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Text" Name="Text" Row="2" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_3" Row="3" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_4" Row="4" Column="0" Content="TempSonda:" />
+        <Field Type="Text" Name="Text_5" Row="6" Column="0" Content="TempSonda:" />
+        <Field Type="Variable" Name="Variable_2" Row="4" Column="15" Content="ControlloAccensione.setOffset_letto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_3" Row="6" Column="15" Content="ControlloAccensione.ControlloStanza_Letto.tempCalibrata" Class="CL_REAL_1" Format="o+3.1" Min="-999.9" Max="999.9" />
+        <Field Type="Variable" Name="Variable_4" Row="3" Column="15" Content="ControlloAccensione.setFattore_letto" Class="CL_REAL_1" Format="io+3.1" Min="-999.9" Max="999.9" />
       </Fields>
     </Mask>
   </Loop>

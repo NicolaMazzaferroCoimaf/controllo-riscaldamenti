@@ -18,17 +18,17 @@
       <Field Type="Variable" Name="Variable_6" Row="7" Column="0" Content="UnitStatus" Class="UnitStatus" Format="o1" Min="0" Max="9" />
       <Field Type="Variable" Name="Variable_8" Row="0" Column="11" Content="GeneralMng.DayOfWeek" Class="DayOfWeekShort" Format="o1" Min="0" Max="9" />
       <Field Type="Text" Name="Text" Row="1" Column="0" Content="Cucina:" />
-      <Field Type="Text" Name="Text_6" Row="2" Column="0" Content="Cucina:" />
-      <Field Type="Text" Name="Text_7" Row="3" Column="0" Content="Cucina:" />
-      <Field Type="Text" Name="Text_8" Row="4" Column="0" Content="Cucina:" />
-      <Field Type="Variable" Name="Variable" Row="1" Column="10" Content="Prog1.cucina" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
-      <Field Type="Variable" Name="Variable_9" Row="2" Column="10" Content="Prog1.salotto" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
-      <Field Type="Variable" Name="Variable_10" Row="3" Column="10" Content="Prog1.bagno" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
-      <Field Type="Variable" Name="Variable_11" Row="4" Column="10" Content="Prog1.letto" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
-      <Field Type="Variable" Name="Variable_12" Row="1" Column="18" Content="Prog1.riscaldamento_cucina" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
-      <Field Type="Variable" Name="Variable_13" Row="2" Column="18" Content="Prog1.riscaldamento_salotto" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
-      <Field Type="Variable" Name="Variable_14" Row="3" Column="18" Content="Prog1.riscaldamento_bagno" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
-      <Field Type="Variable" Name="Variable_15" Row="4" Column="18" Content="Prog1.riscaldamento_letto" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
+      <Field Type="Text" Name="Text_6" Row="2" Column="0" Content="Salotto:" />
+      <Field Type="Text" Name="Text_7" Row="3" Column="0" Content="Bagno:" />
+      <Field Type="Text" Name="Text_8" Row="4" Column="0" Content="Letto:" />
+      <Field Type="Variable" Name="Variable" Row="1" Column="10" Content="ControlloAccensione.ControlloStanza_Cucina.tempCalibrata" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
+      <Field Type="Variable" Name="Variable_9" Row="2" Column="10" Content="ControlloAccensione.ControlloStanza_Salotto.tempCalibrata" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
+      <Field Type="Variable" Name="Variable_10" Row="3" Column="10" Content="ControlloAccensione.ControlloStanza_Bagno.tempCalibrata" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
+      <Field Type="Variable" Name="Variable_11" Row="4" Column="10" Content="ControlloAccensione.ControlloStanza_Letto.tempCalibrata" Min="-60.0" Max="60.0" Class="CL_REAL_1" Format="o+3.1" />
+      <Field Type="Variable" Name="Variable_12" Row="1" Column="18" Content="ControlloAccensione.riscaldamentoOut_cucina" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
+      <Field Type="Variable" Name="Variable_13" Row="2" Column="18" Content="ControlloAccensione.riscaldamentoOut_salotto" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
+      <Field Type="Variable" Name="Variable_14" Row="3" Column="18" Content="ControlloAccensione.riscaldamentoOut_bagno" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
+      <Field Type="Variable" Name="Variable_15" Row="4" Column="18" Content="ControlloAccensione.riscaldamentoOut_letto" Min="0" Max="1" Class="RiscaldamentiOnOff" Format="ob" />
       <Field Type="Text" Name="Text_9" Row="1" Column="16" Content="" />
       <Field Type="Text" Name="Text_10" Row="2" Column="16" Content="" />
       <Field Type="Text" Name="Text_11" Row="3" Column="16" Content="" />
@@ -84,19 +84,34 @@
     </Mask>
   </Loop>
   <Loop Name="SET" Type="Normal" X="1" Y="5">
-    <Mask Name="Set" Type="Normal" X="1" Y="6" Color="LightBlue">
+    <Mask Name="SetCaldoFreddo" Type="Normal" X="1" Y="6">
+      <Fields>
+        <Field Name="Move" Type="Variable" Content="dummy" Column="0" Row="0" Class="CL_Move" Format="ib" Min="0" Max="1" />
+        <Field Type="Variable" Name="Variable_2" Row="2" Column="9" Content="ControlloAccensione.reverse_cucina" Min="0" Max="1" Class="onFreddo" Format="iob" SimulationValue="" />
+        <Field Type="Text" Name="Text_2" Row="2" Column="0" Content="Set:" />
+        <Field Type="Image" Name="Image_2" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
+        <Field Type="Text" Name="Text_3" Row="0" Column="1" Content="Imposta Temperatura" />
+        <Field Type="Text" Name="Text_4" Row="3" Column="0" Content="Set:" />
+        <Field Type="Text" Name="Text_5" Row="4" Column="0" Content="Set:" />
+        <Field Type="Text" Name="Text_6" Row="5" Column="0" Content="Set:" />
+        <Field Type="Variable" Name="Variable_3" Row="3" Column="9" Content="ControlloAccensione.reverse_salotto" Min="0" Max="1" Class="onFreddo" Format="iob" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_4" Row="4" Column="9" Content="ControlloAccensione.reverse_letto" Min="0" Max="1" Class="onFreddo" Format="iob" SimulationValue="" />
+        <Field Type="Variable" Name="Variable_5" Row="5" Column="9" Content="ControlloAccensione.reverse_bagno" Min="0" Max="1" Class="onFreddo" Format="iob" SimulationValue="" />
+      </Fields>
+    </Mask>
+    <Mask Name="SetTemp" Type="Normal" X="1" Y="7" Color="LightBlue">
       <Fields>
         <Field Type="Image" Name="Image_1" Row="0" Column="0" Content="BLACK_ROWS_132X8.BMP" />
         <Field Type="Text" Name="Text_1" Row="0" Column="1" Content="Imposta Temperatura" />
         <Field Type="Variable" Name="Variable_1" Row="0" Column="0" Content="dummy" Class="CL_Move" Format="ib" Min="0" Max="1" />
         <Field Type="Text" Name="Text" Row="2" Column="0" Content="SetCucina:           " />
-        <Field Type="Variable" Name="Variable" Row="2" Column="16" Content="Prog1.set_cucina" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
+        <Field Type="Variable" Name="Variable" Row="2" Column="16" Content="ControlloAccensione.setTemp_cucina" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
         <Field Type="Text" Name="Text_2" Row="3" Column="0" Content="SetSalotto:          " />
         <Field Type="Text" Name="Text_3" Row="4" Column="0" Content="SetLetto:            " />
         <Field Type="Text" Name="Text_4" Row="5" Column="0" Content="SetBagno:            " />
-        <Field Type="Variable" Name="Variable_2" Row="3" Column="16" Content="Prog1.set_salotto" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
-        <Field Type="Variable" Name="Variable_3" Row="4" Column="16" Content="Prog1.set_letto" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
-        <Field Type="Variable" Name="Variable_4" Row="5" Column="16" Content="Prog1.set_bagno" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
+        <Field Type="Variable" Name="Variable_2" Row="3" Column="16" Content="ControlloAccensione.setTemp_salotto" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
+        <Field Type="Variable" Name="Variable_3" Row="4" Column="16" Content="ControlloAccensione.setTemp_letto" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
+        <Field Type="Variable" Name="Variable_4" Row="5" Column="16" Content="ControlloAccensione.setTemp_bagno" Min="16.0" Max="30.0" Class="CL_REAL_1" Format="io+2.1" />
       </Fields>
       <KeyBindings />
     </Mask>

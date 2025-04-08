@@ -33,6 +33,11 @@ msgid "Retain mem write error"
 msgstr "Retain speicher       schreibfehler"
 
 #: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:2]"
+msgid "tuo"
+msgstr ""
+
+#: Classes.otsf
 msgctxt "[Class:AlrmLogEvent][Resource:0]"
 msgid "Start"
 msgstr "Start"
@@ -51,6 +56,11 @@ msgstr "AL*01"
 msgctxt "[Class:AlrmNo][Resource:1]"
 msgid "AL*02"
 msgstr "AL*02"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:2]"
+msgid "AL*03"
+msgstr ""
 
 #: Classes.otsf
 #| msgctxt "[Class:Class_2][Resource:0]"
@@ -4558,6 +4568,28 @@ msgid ""
 msgstr ""
 
 #: Classes.otsf
+msgctxt "[Class:onCaldo][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:onCaldo][Resource:1]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:onCaldo][Resource:0]"
+msgctxt "[Class:onFreddo][Resource:0]"
+msgid ""
+msgstr ""
+
+#: Classes.otsf
+#| msgctxt "[Class:onCaldo][Resource:1]"
+msgctxt "[Class:onFreddo][Resource:1]"
+msgid "ON"
+msgstr ""
+
+#: Classes.otsf
 msgctxt "[Class:Parity][Resource:0]"
 msgid "None"
 msgstr ""
@@ -5487,6 +5519,122 @@ msgid "Blackout info"
 msgstr "Blackout-Info"
 
 #: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_3][Field:Text]"
+msgctxt "[Mask:CalibrBagno][Field:Text]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_3][Field:Text_2]"
+msgctxt "[Mask:CalibrBagno][Field:Text_2]"
+msgid "InputOutput"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_3][Field:Text_3]"
+msgctxt "[Mask:CalibrBagno][Field:Text_3]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_3][Field:Text_4]"
+msgctxt "[Mask:CalibrBagno][Field:Text_4]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_3][Field:Text_5]"
+msgctxt "[Mask:CalibrBagno][Field:Text_5]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:CalibrCucina][Field:Text]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:InputOutput][Field:Text_2]"
+msgctxt "[Mask:CalibrCucina][Field:Text_2]"
+msgid "InputOutput"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:CalibrCucina][Field:Text_3]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:CalibrCucina][Field:Text_4]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+msgctxt "[Mask:CalibrCucina][Field:Text_5]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_4][Field:Text]"
+msgctxt "[Mask:CalibrLetto][Field:Text]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_4][Field:Text_2]"
+msgctxt "[Mask:CalibrLetto][Field:Text_2]"
+msgid "InputOutput"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_4][Field:Text_3]"
+msgctxt "[Mask:CalibrLetto][Field:Text_3]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_4][Field:Text_4]"
+msgctxt "[Mask:CalibrLetto][Field:Text_4]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_4][Field:Text_5]"
+msgctxt "[Mask:CalibrLetto][Field:Text_5]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_2][Field:Text]"
+msgctxt "[Mask:CalibrSalotto][Field:Text]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_2][Field:Text_2]"
+msgctxt "[Mask:CalibrSalotto][Field:Text_2]"
+msgid "InputOutput"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_2][Field:Text_3]"
+msgctxt "[Mask:CalibrSalotto][Field:Text_3]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_2][Field:Text_4]"
+msgctxt "[Mask:CalibrSalotto][Field:Text_4]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
+#| msgctxt "[Mask:CalibrCucina_Clone_2][Field:Text_5]"
+msgctxt "[Mask:CalibrSalotto][Field:Text_5]"
+msgid "TempSonda:"
+msgstr ""
+
+#: 03_Devices.otws
 #| msgctxt "[Mask:Device1][Field:Text]"
 msgctxt "[Mask:Controlla][Field:Text]"
 msgid "EcoSet:              "
@@ -5743,16 +5891,6 @@ msgstr ""
 #: 04_Settings.otws
 msgctxt "[Mask:ErrorIPCfg][Field:Text_2]"
 msgid "NET Configuration"
-msgstr ""
-
-#: 03_Devices.otws
-msgctxt "[Mask:InputOutput][Field:Text]"
-msgid "InputOutput"
-msgstr ""
-
-#: 03_Devices.otws
-msgctxt "[Mask:InputOutput][Field:Text_2]"
-msgid "InputOutput"
 msgstr ""
 
 #: 02_Main.otws
@@ -6245,28 +6383,28 @@ msgid "Yes"
 msgstr ""
 
 #: 02_Main.otws
-msgctxt "[Mask:Set][Field:Text]"
-msgid "Setpoint:            "
+msgctxt "[Mask:SetCaldoFreddo][Field:Text_2]"
+msgid "Set:"
 msgstr ""
 
 #: 02_Main.otws
-msgctxt "[Mask:Set][Field:Text_1]"
-msgid "Set"
+msgctxt "[Mask:SetCaldoFreddo][Field:Text_3]"
+msgid "Imposta Temperatura"
 msgstr "Einstellen"
 
 #: 02_Main.otws
-msgctxt "[Mask:Set][Field:Text_2]"
-msgid "SetCucina:           "
+msgctxt "[Mask:SetCaldoFreddo][Field:Text_4]"
+msgid "Set:"
 msgstr ""
 
 #: 02_Main.otws
-msgctxt "[Mask:Set][Field:Text_3]"
-msgid "SetCucina:           "
+msgctxt "[Mask:SetCaldoFreddo][Field:Text_5]"
+msgid "Set:"
 msgstr ""
 
 #: 02_Main.otws
-msgctxt "[Mask:Set][Field:Text_4]"
-msgid "SetCucina:           "
+msgctxt "[Mask:SetCaldoFreddo][Field:Text_6]"
+msgid "Set:"
 msgstr ""
 
 #: 04_Settings.otws
@@ -6297,6 +6435,36 @@ msgstr ""
 #| msgctxt "[Mask:Set_NTC_1][Field:Text_6]"
 msgctxt "[Mask:SetFattore][Field:Text_6]"
 msgid "FATTORE"
+msgstr ""
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Set][Field:Text]"
+msgctxt "[Mask:SetTemp][Field:Text]"
+msgid "Setpoint:            "
+msgstr ""
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Set][Field:Text_1]"
+msgctxt "[Mask:SetTemp][Field:Text_1]"
+msgid "Set"
+msgstr "Einstellen"
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Set][Field:Text_2]"
+msgctxt "[Mask:SetTemp][Field:Text_2]"
+msgid "SetCucina:           "
+msgstr ""
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Set][Field:Text_3]"
+msgctxt "[Mask:SetTemp][Field:Text_3]"
+msgid "SetCucina:           "
+msgstr ""
+
+#: 02_Main.otws
+#| msgctxt "[Mask:Set][Field:Text_4]"
+msgctxt "[Mask:SetTemp][Field:Text_4]"
+msgid "SetCucina:           "
 msgstr ""
 
 #: 03_Devices.otws
