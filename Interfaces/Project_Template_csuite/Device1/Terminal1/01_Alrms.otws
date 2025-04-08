@@ -31,7 +31,6 @@
         <KeyBinding Key="UP" BindOn="ScrollAlarm_UP" />
         <KeyBinding Key="DOWN" BindOn="ScrollAlarm_DOWN" />
       </KeyBindings>
-      <EnableOn />
       <ResourceUsedOnInt />
       <ResourceUsedOnBool />
     </Mask>

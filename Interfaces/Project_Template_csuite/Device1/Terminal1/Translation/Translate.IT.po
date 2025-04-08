@@ -35,7 +35,27 @@ msgstr "Errore in scritt.     memoria"
 #: Classes.otsf
 msgctxt "[Class:AlrmDescr][Resource:2]"
 msgid "tuo"
-msgstr "tuo"
+msgstr "Temperatura elevata"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:3]"
+msgid "Temperatura cucina elevata"
+msgstr "Temperatura cucina elevata"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:4]"
+msgid "Temperatura letto elevata"
+msgstr "Temperatura letto elevata"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:5]"
+msgid "Temperatura bagno elevata"
+msgstr "Temperatura bagno elevata"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:6]"
+msgid "Temperatura salotto elevata"
+msgstr "Temperatura salotto elevata"
 
 #: Classes.otsf
 msgctxt "[Class:AlrmLogEvent][Resource:0]"
@@ -61,6 +81,26 @@ msgstr "AL*02"
 msgctxt "[Class:AlrmNo][Resource:2]"
 msgid "AL*03"
 msgstr "AL*03"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:3]"
+msgid "AL*04"
+msgstr "AL*04"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:4]"
+msgid "AL*05"
+msgstr "AL*05"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:5]"
+msgid "AL*06"
+msgstr "AL*06"
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:6]"
+msgid "AL*07"
+msgstr "AL*07"
 
 #: Classes.otsf
 #| msgctxt "[Class:Class_2][Resource:0]"

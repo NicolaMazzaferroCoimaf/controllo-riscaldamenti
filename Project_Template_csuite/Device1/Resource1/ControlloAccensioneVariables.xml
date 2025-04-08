@@ -144,6 +144,24 @@
         Max=""
         StringSize="0" />
       <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -422,24 +440,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarme"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="VarOutput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Cucina"
@@ -564,6 +564,24 @@
         Max=""
         StringSize="0" />
       <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -842,24 +860,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarme"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="VarOutput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Letto"
@@ -984,6 +984,24 @@
         Max=""
         StringSize="0" />
       <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -1262,24 +1280,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarme"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="VarOutput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="ControlloStanza_Salotto"
@@ -1404,6 +1404,24 @@
         Max=""
         StringSize="0" />
       <Variable
+        Name="allarme"
+        DataType="BOOL"
+        IO="false"
+        Protocol="false"
+        UI="false"
+        Default="false"
+        LogPV="false"
+        IsRetained="false"
+        Alarm="false"
+        UoM="NoUnits"
+        Comment=""
+        Kind="VarOutput"
+        Access="ReadWrite"
+        Acronym=""
+        Min=""
+        Max=""
+        StringSize="0" />
+      <Variable
         Name="isteresi"
         DataType="REAL"
         IO="false"
@@ -1682,24 +1700,6 @@
           Max=""
           StringSize="0" />
       </Variable>
-      <Variable
-        Name="allarme"
-        DataType="BOOL"
-        IO="false"
-        Protocol="false"
-        UI="false"
-        Default="false"
-        LogPV="false"
-        IsRetained="false"
-        Alarm="false"
-        UoM="NoUnits"
-        Comment=""
-        Kind="VarOutput"
-        Access="ReadWrite"
-        Acronym=""
-        Min=""
-        Max=""
-        StringSize="0" />
     </Variable>
     <Variable
       Name="reverse_bagno"

@@ -691,6 +691,7 @@
         Acronym=""
         Min=""
         Max=""
+        InitialValue="FALSE"
         StringSize="0" />
     </Variable>
     <Variable

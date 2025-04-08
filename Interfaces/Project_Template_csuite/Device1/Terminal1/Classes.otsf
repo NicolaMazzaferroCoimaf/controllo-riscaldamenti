@@ -17,6 +17,10 @@
       <Index Value="0" Content="Too many mem writings" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="1" Content="Retain mem write error" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="2" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="AlrmLogEvent" Format="o1">
@@ -32,6 +36,10 @@
       <Index Value="0" Content="AL*01" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="1" Content="AL*02" Type="Text" Font="CAREL_TERM_INT" ProportionalCharWidth="true" />
       <Index Value="2" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="3" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="4" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="5" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
+      <Index Value="6" Content="" Type="Text" TextFactor="2" LimitText="false" Font="CAREL_TERM_INT" FontHeight="9" ProportionalCharWidth="true" />
     </ResourceUsedOnInt>
   </FormatField>
   <FormatField Name="Baudrate" Format="io+6">

@@ -37,6 +37,26 @@ msgid "tuo"
 msgstr ""
 
 #: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:3]"
+msgid "Temperatura cucina elevata"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:4]"
+msgid "Temperatura letto elevata"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:5]"
+msgid "Temperatura bagno elevata"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmDescr][Resource:6]"
+msgid "Temperatura salotto elevata"
+msgstr ""
+
+#: Classes.otsf
 msgctxt "[Class:AlrmLogEvent][Resource:0]"
 msgid "Start"
 msgstr ""
@@ -59,6 +79,26 @@ msgstr ""
 #: Classes.otsf
 msgctxt "[Class:AlrmNo][Resource:2]"
 msgid "AL*03"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:3]"
+msgid "AL*04"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:4]"
+msgid "AL*05"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:5]"
+msgid "AL*06"
+msgstr ""
+
+#: Classes.otsf
+msgctxt "[Class:AlrmNo][Resource:6]"
+msgid "AL*07"
 msgstr ""
 
 #: Classes.otsf
